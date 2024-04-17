@@ -1,9 +1,23 @@
+'use client';
+
+import Resume from '@/components/Resume';
+import { Tip } from '@/components/Tip';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center">
+            <div className="absolute top-0 right-0 m-10">
+                <a
+                    href="https://docs.google.com/document/d/1admEVvoNMtzL76vaUAlTeFKqnxXr1gBt/edit?usp=sharing&ouid=101018202579593473515&rtpof=true&sd=true"
+                    target="_blank"
+                >
+                    <h1 className="text-gray-500 hover:text-gray-300">
+                        RESUME
+                    </h1>
+                </a>
+            </div>
             <div className="flex min-h-screen flex-col justify-center items-center">
                 <Image
                     className="m-7 rounded-full"
