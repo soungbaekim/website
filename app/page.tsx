@@ -71,10 +71,10 @@ export default function Home() {
                 <h1>PROJECTS</h1>
             </div>
             <div
-                id="awards"
+                id="skills"
                 className="flex min-h-screen flex-col justify-center items-center"
             >
-                <h1>AWARDS</h1>
+                <h1>SKILLS</h1>
             </div>
             <div
                 id="contact"
@@ -104,8 +104,8 @@ const TABS: { title: string; url: string }[] = [
         url: '/#projects',
     },
     {
-        title: 'AWARDS',
-        url: '/#awards',
+        title: 'SKILLS',
+        url: '/#skills',
     },
     {
         title: 'CONTACT',
